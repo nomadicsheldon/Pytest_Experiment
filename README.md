@@ -59,7 +59,7 @@ pytest -v -q
 @pytest.mark.skip(reason="do not run number add test")
 ```
 
-### for skip for perticular condition 👉
+### for skip particular condition 👉
 ```
 @pytest.mark.skipif(sys.version_info > (3, 3), reason="do not run number add test")
 ```
